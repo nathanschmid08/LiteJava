@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="md/font.png" alt="Lite Java"> 
+  <img src="md/font.png" alt="Lite Java" width="650px"> 
 </h1>
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Stable-blue" alt="Status">
@@ -64,7 +64,7 @@ LiteJava is a streamlined, pseudo-Java language designed to help beginners under
 <hr>
 
 ## 🖥️ Example
-### LiteJava Code
+### 📝 LiteJava Code
 ```python
 class HelloWorld {
   main
@@ -76,7 +76,7 @@ class HelloWorld {
       print "Hello " + name
 }
 ```
-### Generated Java Code
+### ☕ Generated Java Code
 ```java
 public class HelloWorld {
   public static void main(String[] args) {
@@ -106,16 +106,16 @@ public class HelloWorld {
 <hr>
   
 ## 🚀 Getting Started
-### Requirements
+### 📋 Requirements
 - **Go** (>= 1.18)
 - Java JDK (for running the output)
 - Fyne Toolkit (go get fyne.io/fyne/v2)
-### Build & Run
+### 🔨 Build & Run
 ```bash
 go mod tidy
 go run main.go
 ```
-### Output File
+### 📄 Output File
 The transpiled Java code will be saved as:
 ```bash
 ~/Main.java
@@ -131,25 +131,24 @@ java HelloWorld
 ## 📁 Project Structure
 ```pgsql
 litejava/
-├── transpiler/
-│   └── transpiler.go     # LiteJava-to-Java conversion logic
-├── main.go               # GUI application with Fyne
-├── go.mod
-├── go.sum
-├── README.md
-├── license.txt
-└── md/
-    └── font.png
-    └── icon.png
+├── 📂 transpiler/
+│   └── 📄 transpiler.go     # LiteJava-to-Java conversion logic
+├── 📄 main.go               # GUI application with Fyne
+├── 📄 go.mod
+├── 📄 go.sum
+├── 📄 README.md
+├── 📄 license.txt
+└── 📂 md/
+    ├── 🖼️ font.png
+    └── 🖼️ icon.png
 ```
 <hr>
   
 ## 🖥️ GUI IDE
-The included IDE allows you to:
-- Write LiteJava code in a text editor
-- Click "Translate" to convert it to Java
-- View the generated Java code in a separate pane
-- Automatically save the output file
+- ✏️ Write LiteJava code in a text editor
+- 🔄 Click "Translate" to convert it to Java
+- 👀 View the generated Java code in a separate pane
+- 💾 Automatically save the output file
 <hr>
   
 ## 📦 Return Type Inference
