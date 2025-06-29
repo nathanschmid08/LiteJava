@@ -2,9 +2,9 @@
   <img src="md/font.png" alt="Lite Java"> 
 </h1>
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-Stable-green" alt="Status">
+  <img src="https://img.shields.io/badge/Status-Stable-blue" alt="Status">
   <img src="https://img.shields.io/badge/Version-1.0-blue" alt="Version">
-  <img src="https://img.shields.io/badge/Language-Go-purple" alt="Language">
+  <img src="https://img.shields.io/badge/Language-Go-blue" alt="Language">
 </p>
 <div align="center">
   
